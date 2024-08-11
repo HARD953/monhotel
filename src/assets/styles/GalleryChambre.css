@@ -1,0 +1,81 @@
+.gallery_chambre{
+    position: relative;
+}
+
+.gallery_chambre_container{
+    display: grid;
+    gap: 10px ;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+.gallery_chambre_container_items{
+    position: relative;
+    cursor: pointer;
+    height: 245px;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.fixed_button_mobile{
+    display: none;
+}
+
+
+.gallery_chambre_container_items img{
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.gallery_chambre_container_items_main{
+
+    height: 500px;
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+
+.gallery_chambre_show_photos_container{
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    z-index: 999 !important;
+}
+
+
+.gallery_chambre__mobile{
+    display: none;
+}
+
+/* Styles pour les écrans smartphones en mode portrait  */
+@media (max-width: 767px) {
+    .gallery_chambre__mobile{
+        display: block;
+    }
+    .gallery_chambre_container{
+        display: none;
+        /* display: grid;
+        gap: 5px ;
+        grid-template-columns: 1fr 1fr 1fr 1fr; */
+    }
+
+    .gallery_chambre_container_items{
+        position: relative;
+        height: 125px;
+}
+  
+
+    .gallery_chambre_container_items_main{
+
+        height: 250px;
+        grid-column: 1/5;
+    }
+
+}
+
+
+

@@ -1,0 +1,147 @@
+/* Styles de base */
+
+.app_navbar_web {
+    padding: 0.5rem 1rem;
+    border-bottom: 2px solid #c5c5c543;
+}
+
+.app_navbar_web_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app_navbar_web_container_logo {
+    margin-left: 1rem;
+}
+
+.app_navbar_web_container_logo_link {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--myhot-primary-color);
+}
+
+.app_navbar_web_container_sign_in_up_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+
+.app_navbar_web_container_sign_up,
+.app_navbar_web_container_sign_in {
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--myhot-primary-color);
+}
+
+
+
+
+
+/* Styles pour les écrans smartphones en mode portrait  */
+@media (max-width: 575px) {
+    .app_navbar_web {
+        /* padding: 0.6rem 0.5rem; */
+        padding: 1.2rem 0.8rem;
+        /* position: sticky; 
+        position: -webkit-sticky;
+        top: 0;
+        z-index: 999;
+        background-color: #fff; */
+    }
+    .app_navbar_web_container_logo_link {
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+        color: var(--myhot-primary-color);
+    }
+    
+
+    .app_navbar_web_container_logo {
+        margin-left: 0.5rem;
+    }
+
+    .app_navbar_web_container_sign_in_up_container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+    }
+}
+
+/* Styles pour les écrans smartphones en mode paysage*/
+@media (min-width:576px) and (max-width:767px) {
+    .app_navbar_web {
+        padding: 0.4rem 0.8rem;
+    }
+
+    .app_navbar_web_container_logo {
+        margin-left: 0.8rem;
+    }
+
+    .app_navbar_web_container_sign_in_up_container {
+        gap: 2rem;
+    }
+}
+
+
+
+/* Styles pour les écrans de taille moyenne (tablettes) */
+@media (min-width: 767px) and (max-width: 991px) {
+    .app_navbar_web {
+        padding: 0.4rem 0.8rem;
+    }
+
+    .app_navbar_web_container_logo {
+        margin-left: 0.8rem;
+    }
+
+    .app_navbar_web_container_sign_in_up_container {
+        gap: 2rem;
+    }
+}
+
+
+/* Styles pour les écrans de grande taille (ordinateurs de bureau) */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .app_navbar_web {
+        padding: 0.5rem 1rem;
+    }
+
+    .app_navbar_web_container_logo {
+        margin-left: 1rem;
+    }
+
+    .app_navbar_web_container_logo_link {
+        font-size: 20px;
+    }
+    .app_navbar_web_container_sign_up,
+    .app_navbar_web_container_sign_in {
+        font-size: 13px;
+    }
+
+    .app_navbar_web_container_sign_in_up_container {
+        gap: 3rem;
+    }
+}
+
+/* Media query pour les écrans de largeur supérieure à 1200px (ordinateurs de bureau) */
+@media (min-width: 1200px) {
+
+    .app_navbar_web {
+        padding: 1rem 2rem;
+    }
+
+    .app_navbar_web_container_logo_link {
+        font-size: 18px;
+    }
+    
+    .app_navbar_web_container_sign_up,
+    .app_navbar_web_container_sign_in {
+        font-size: 16px;
+    }
+
+}

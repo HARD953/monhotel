@@ -1,0 +1,124 @@
+.detail_chambre{
+
+}
+
+.detail_chambre_header_container{
+
+}
+
+.detail_chambre_header{
+
+}
+
+.details_chambre_tabmenu_links_container{
+    margin: 3rem 0;
+    border-bottom: 1px solid  var(--myhot-primary-color);
+    
+}
+
+
+.details_chambre_tabmenu_links_container a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bolder;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #000;
+    border-radius: 2rem;    
+}
+
+
+.details_chambre_tabmenu_links_container a:hover{
+    border: 1px solid var(--myhot-primary-color);
+    padding: 9px 19px;
+    background-color: var(--myhot-primary-color);
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    color: #ffffff;
+}
+
+
+
+.details_chambre_tabmenu_links_active{
+    background-color: var(--myhot-primary-color);
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    color: #ffffff !important;
+}
+
+
+
+.detail_chambre_header__title{
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cardChambre__header__type,.detail_chambre_header__position{
+
+    font-weight:600;
+    color: #8a8383e1;
+    margin: 0;
+    font-size: 14px;
+}
+
+.detail_chambre__equipement {
+    display: grid;
+    justify-content:space-around;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+    align-items: center;
+    gap: 1rem 2rem;
+  }
+
+
+.detail_chambre_header__position{
+
+}
+
+.detail_chambre_header__comments{
+
+    font-weight: bold;
+    color: rgb(85, 81, 81);
+}
+
+.detail_chambre_header__price{
+
+    font-size: 14px;
+    color: rgb(85, 81, 81);
+}
+
+.detail_chambre_commentaires_container{
+}
+
+
+.detail_chambre_commentaires_items{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(500px, auto));
+
+}
+
+
+/* Styles pour les écrans smartphones en mode portrait  */
+@media (max-width: 767px) {
+    
+    .fixed_button_mobile { 
+        display: block;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px;
+        background-color: #ffffff;
+        text-align: center;
+        margin-top: -10px;
+        z-index: 999;
+      }
+}
+

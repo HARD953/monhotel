@@ -1,0 +1,206 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+
+:root{
+    --myhot-primary-color:#0a1442;
+    --myhot-primary-color-hover:#1e254ec9;
+    /* --myhot-primary-color:#00eeff; */
+    --myhot-primary-color-op-50:rgba(0, 238, 255, 0.5);
+    --myhot-dark-color: #0e0d0d;
+    --myhot-dark-color-other: #0a1442;
+    
+
+
+    /* points ruptures pour les querie media */
+    --myhot-taille-st : 575px;
+    --myhot-taille-576: 576px;
+    --myhot-taille-767 : 767px;
+    --myhot-taille-991: 991px;
+    --myhot-taille-992: 992px;
+    --myhot-taille-1199 : 1199px;
+    --myhot-taille-1200 : 1200px;
+    
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--myhot-primary-color);
+    border-radius: 4rem;
+    -webkit-border-radius: 4rem;
+    -moz-border-radius: 4rem;
+    -ms-border-radius: 4rem;
+    -o-border-radius: 4rem;
+}
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+
+.accueil-container .p-scrolltop.p-link {
+    background:  var(--myhot-primary-color);
+}
+
+
+.bg-myhot-primary{
+  background-color: var(--myhot-primary-color) !important;
+}
+
+
+.text-myhot-primary{
+  color: var(--myhot-primary-color) !important;
+}
+
+
+/* Définir la police de caractère globale */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif !important;
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+  color: #333 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Titres */
+h1 {
+  font-size: 2rem !important;
+  /* 32px */
+  margin-bottom: 0.5em !important;
+  line-height: 1.2 !important;
+  font-weight: bold !important;
+  color: #222 ;
+}
+
+h2 {
+  font-size: 1.75rem !important;
+  /* 28px */
+  margin-bottom: 0.5em !important;
+  line-height: 1.3 !important;
+  font-weight: bold !important;
+  color: #222 ;
+}
+
+h3 {
+  font-size: 1.5rem !important;
+  /* 24px */
+  margin-bottom: 0.5em !important;
+  line-height: 1.4 !important;
+  font-weight: bold !important;
+  color: #222 ;
+}
+
+h4 {
+  font-size: 1.25rem !important;
+  /* 20px */
+  margin-bottom: 0.5em !important;
+  line-height: 1.5 !important;
+  font-weight: bold !important;
+  color: #222 ;
+}
+
+h5 {
+  font-size: 1rem !important;
+  /* 16px */
+  margin-bottom: 0.5em !important;
+  line-height: 1.6 !important;
+  font-weight: bold !important;
+  color: #222 ;
+}
+
+h6 {
+  font-size: 0.875rem !important;
+  /* 14px */
+  margin-bottom: 0.5em !important;
+  line-height: 1.6 !important;
+  font-weight: bold !important;
+  color: #222 ;
+}
+
+/* Paragraphes */
+p {
+  margin-bottom: 0.5em !important;
+
+}
+
+/* Liens */
+a {
+  color: #007BFF !important;
+  text-decoration: none !important;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline !important;
+}
+
+/* Texte secondaire (comme les légendes ou annotations) */
+.small-text {
+  font-size: 0.875rem !important;
+  /* 14px */
+  color: #666 !important;
+}
+
+/* Classes personnalisées pour les cas spécifiques */
+.text-muted {
+  color: #6c757d !important;
+}
+
+.text-primary {
+  color: #007BFF !important;
+}
+
+.text-success {
+  color: #28a745 !important;
+}
+
+.text-danger {
+  color: #dc3545 !important;
+}
+
+.text-warning {
+  color: #ffc107 !important;
+}
+
+.text-info {
+  color: #17a2b8 !important;
+}
+
+
+.gallery-chambre-container-main .p-galleria-item-wrapper .p-galleria-item span.p-image.p-component {
+  height: 30rem !important;
+  /* background-color: red; */
+}
+
+.gallery-chambre-container-main .p-galleria-item-wrapper .p-galleria-item span.p-image.p-component img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-chambre-container-main .p-galleria-content .p-galleria-thumbnail-container {
+  height: 10rem !important;
+  /* background-color: red; */
+}
+
+.gallery-chambre-container-main .p-galleria-content .p-galleria-thumbnail-container .p-galleria-thumbnail-items-container {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+

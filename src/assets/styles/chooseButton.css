@@ -1,0 +1,97 @@
+
+.choose_button__container{
+    margin: 0.5rem 1rem;
+    background: #ffffff;
+    transition:background ease-in-out 0.3s;
+    cursor: pointer;
+    border-radius: 4rem;
+    padding: 0 1.5rem 0 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    -webkit-border-radius: 4rem;
+    -moz-border-radius: 4rem;
+    -ms-border-radius: 4rem;
+    -o-border-radius: 4rem;
+    -webkit-transition:background ease-in-out 0.3s;
+    -moz-transition:background ease-in-out 0.3s;
+    -ms-transition:background ease-in-out 0.3s;
+    -o-transition:background ease-in-out 0.3s;
+}
+
+
+
+.choose_button__container:hover,.choose_button__container.active{
+    background: var(--myhot-primary-color);
+}
+
+
+.choose_button__container:hover .choose_button_text_title {
+    color: #ffffff;
+}
+
+
+
+.choose_button_icon_container{
+    /* border: 1px solid red; */
+    background: #ffffff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 2rem;
+    width: 2rem;
+    padding: 10px;
+    border-radius: 4rem;
+    -webkit-border-radius: 4rem;
+    -moz-border-radius: 4rem;
+    -ms-border-radius: 4rem;
+    -o-border-radius: 4rem;
+}
+.choose_button_icon_container i{
+    font-size: 14px;
+    color: var(--myhot-primary-color) !important;
+}
+
+
+.choose_button_text_title{
+    font-size: 12px;
+    font-weight: bold ;
+    margin: 0 0 0 10px !important;
+}
+
+.choose_button_text_title_active{
+    color: #ffffff;
+}
+
+
+
+
+/* Styles pour les écrans smartphones en mode portrait  */
+@media (max-width: 575px) {
+    
+    .choose_button__container{
+        margin: 0.2rem 0.5rem;
+        padding: 0.1rem 1rem 0.1rem  0;
+    }
+
+}
+
+/* Styles pour les écrans smartphones en mode paysage*/
+@media (min-width:576px) and (max-width:767px) {
+
+    .choose_button__container{
+        margin: 0.2rem 0.5rem;
+    }
+}
+
+
+
+/* Styles pour les écrans de taille moyenne (tablettes) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .choose_button__container{
+        margin: 0.2rem 0.5rem;
+    }
+}
+
+

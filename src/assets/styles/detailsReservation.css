@@ -1,0 +1,31 @@
+.chambre_details_reservation{
+}
+
+.chambre_details_reservation h4{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+.chambre_details_reservation_content{
+    
+}
+
+.chambre_details_reservation_items_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.chambre_details_reservation_items_container p{
+    margin: 0;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.chambre_details_reservation_btn_container{
+    text-align: end;
+    margin-top: 2rem;
+}
+

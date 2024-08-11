@@ -1,0 +1,17 @@
+
+.listChambre__grid {
+    display: grid;
+    justify-content:space-around;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 20rem));
+    align-items: center;
+    gap: 1rem 2rem;
+  }
+
+  .list_chambre_title{
+    font-size: 24px;
+  }
+  @media (max-width: 60em) {
+    .listChambre__grid {
+      /* grid-gap: 3rem; */
+    }
+  }

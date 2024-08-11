@@ -1,0 +1,38 @@
+.myhot_spinner_content{
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+.myhot_spinner_container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+
+.myhot_spinner {
+    width: 40px;
+    height: 40px;
+    animation: spinner-c601d3 0.8s infinite;
+    background-color: #32336a;
+    border-radius: 50%;
+ }
+ 
+ @keyframes spinner-c601d3 {
+    0% {
+       opacity: 0;
+       transform: scale(0) translateX(-300%);
+    }
+ 
+    50% {
+       opacity: 1;
+       transform: scale(1.25) translateX(0);
+    }
+ 
+    100% {
+       opacity: 0;
+       transform: scale(0) translateX(300%);
+    }
+ }

@@ -1,0 +1,78 @@
+.cardChambre{
+    /* position: relative; */
+    /* width: 25rem; */
+    /* cursor: pointer; */
+    border-radius: 0.5rem;
+    /* border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px; */
+    background-color: #fff;
+    border-bottom-left-radius: 1rem !important;
+    border-bottom-right-radius: 1rem !important;
+}
+.cardChambre__slider__container{
+    position: relative;
+    /* border-radius: 0.9rem ; */
+}
+.cardChambre__content{
+    /* padding: 1rem ; */
+    border-bottom-width: 1px;
+    border-color: var(--myhot-primary-color);
+    border-bottom-left-radius: 1rem !important;
+    border-bottom-right-radius: 1rem !important;
+}
+
+.cardChambre__header__title{
+    font-size: 16px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--myhot-primary-color);
+    padding-bottom: 0;
+}
+.cardChambre__content .cardChambre__header__type{
+    font-weight:600 !important;
+    color: #222222e1 !important;
+    margin-top: -15px !important;
+    
+}
+
+.cardChambre__header__type,.cardChambre__header__position{
+    font-weight:600;
+    /* color: #8a8383e1; */
+    margin-top: 0;
+    padding: 0;
+    font-size: 13px;
+}
+
+
+.cardChambre__content .cardChambre__content__sup_style{
+    background-color: #fff;
+    border-bottom-width: 1px;
+    border-color: var(--myhot-primary-color);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+
+.cardChambre__price{
+}
+
+.cardChambre__button__container{
+    border-bottom-left-radius: 1rem !important;
+    border-bottom-right-radius: 1rem !important;
+}
+.cardChambre__button__container .button__style{
+    background-color: #fff !important;
+    color: var(--myhot-primary-color) !important;
+    font-weight: bolder;
+    border-bottom-left-radius: 1rem !important;
+    border-bottom-right-radius: 1rem !important;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-color: var(--myhot-primary-color);
+
+}

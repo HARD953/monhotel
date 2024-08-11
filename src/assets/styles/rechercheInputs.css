@@ -1,0 +1,125 @@
+
+.search-panel-overlay.p-overlaypanel {
+  background: #ffffff !important;
+  padding: 0;
+  border-radius: 1rem ;
+  -webkit-border-radius: 1rem ;
+  -moz-border-radius: 1rem ;
+  -ms-border-radius: 1rem ;
+  -o-border-radius: 1rem ;
+}
+
+
+.search-panel-overlay.p-overlaypanel .p-overlaypanel-content {
+  padding: 0.5rem !important;
+  border-radius: 1rem ;
+}
+
+.search-panel-overlay.p-overlaypanel .p-inputtext{
+  padding: 10px 16px !important;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+
+
+.p-listbox.seacrh-listbox .p-listbox-list .p-listbox-item.p-highlight {
+  color: #495057;
+  background: var(--myhot-primary-color) !important;
+}
+
+.p-listbox.seacrh-listbox  .p-listbox-list .p-listbox-item {
+  padding: 0.7rem 1rem !important;
+  border-bottom: 1px solid var(--myhot-primary-color) !important;
+  border-radius: 2rem !important;
+  -webkit-border-radius: 2rem !important;
+  -moz-border-radius: 2rem !important;
+  -ms-border-radius: 2rem !important;
+  -o-border-radius: 2rem !important;
+}
+
+.p-listbox.seacrh-listbox  .p-listbox-list .p-listbox-item:hover {
+  color: #495057;
+  background: var(--myhot-primary-color) !important;
+}
+
+.p-listbox.seacrh-listbox  .p-listbox-list .p-listbox-item {
+  margin: 0;
+  padding: 0.5rem 1rem;
+  border: 0 none;
+  color: #2f3235;
+  transition: box-shadow 0.2s;
+  border-radius: 0;
+}
+
+
+/* calendar style */
+.p-calendar.search-calendar .p-datepicker {
+  border: none !important;
+}
+
+
+
+/* calendar style */
+.p-calendar.search-calendar .p-datepicker-group {
+  border: none !important;
+}
+
+
+/* inputText style */
+.p-inputnumber.search-personnes .p-inputtext.p-inputnumber-input{
+  width: 3rem !important;
+  
+}
+
+.InputSearcBar_btn_container{
+  font-size: 13px;
+}
+
+/* Styles pour les écrans smartphones en mode paysage*/
+@media (max-width:767px) {
+  .accueil-search{
+      display: none;
+  }
+}
+
+@media (min-width:768px) {
+  .accueil-search{
+      display: block;
+  }
+}
+
+
+
+/* Styles pour les écrans smartphones en mode portrait  */
+@media (max-width: 575px) {
+
+}
+
+/* Styles pour les écrans smartphones en mode paysage*/
+@media (min-width:576px) and (max-width:767px) {
+
+}
+
+
+
+/* Styles pour les écrans de taille moyenne (tablettes) */
+@media (min-width: 767px) and (max-width: 991px) {
+ 
+}
+
+
+/* Styles pour les écrans de grande taille (ordinateurs de bureau) */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+ 
+}
+
+/* Media query pour les écrans de largeur supérieure à 1200px (ordinateurs de bureau) */
+@media (min-width: 1200px) {
+
+}
+
+
+
